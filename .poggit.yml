@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Slayer-Return/RankSystemVoucher
+build-by-default: true
+branches:
+- main
+projects:
+  RankSystemVoucher:
+    path: ""
+    icon: "voucher.png"
+...
