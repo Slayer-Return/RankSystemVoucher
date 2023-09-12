@@ -3,6 +3,7 @@ api: 5.0.0
 version: 1.0.0
 main: slayerretrun\ranksystemvoucher\RankSystemVoucher
 author: SlayerRetrun Team
+depend: RankSystem
 commands:
   ranksystemvoucher:
     description: RankSystemVoucher Command

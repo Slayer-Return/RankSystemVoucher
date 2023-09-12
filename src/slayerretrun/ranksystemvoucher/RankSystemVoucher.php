@@ -52,11 +52,6 @@ class RankSystemVoucher extends PluginBase
         $this->rank_voucher = new Config($this->getDataFolder() . "rank_voucher.yml", Config::YAML);
 
         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
-
-        if ($this->getRankSystem() === null){
-            $this->getLogger()->emergency("There are no RankSystem plugin.");
-            $this->getServer()->getPluginManager()->disablePlugin($this);
-        }
     }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool
@@ -103,9 +98,9 @@ class RankSystemVoucher extends PluginBase
         return false;
     }
 
-    public function getRankSystem() : ?RankSystem
+    public function getRankSystem() : RankSystem
     {
-        return $this->getServer()->getPluginManager()->getPlugin("RankSystem") !== null ? RankSystem::getInstance() : null;
+        return RankSystem::getInstance();
     }
 
     public function parseItem(string $item_name) : Item
