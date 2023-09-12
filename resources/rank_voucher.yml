@@ -15,3 +15,14 @@ example:
     - "ranksystem setrank {player} example"
     - "ranksystem removerank {player} {old-rank}"
   message: "§eCongratulations you just got a Rank {rank} from RankSystemVoucher!"
+example2:
+  item: paper
+  customname: §aRankSystemVoucher §eExample2
+  lore:
+    - "§aRank §eExample"
+    - "§7(Right-Click) to claim rank"
+  permission: example
+  commands:
+    - "ranksystem setrank {player} example2"
+    - "ranksystem removerank {player} {old-rank}"
+  message: "§eCongratulations you just got a Rank {rank} from RankSystemVoucher!"
