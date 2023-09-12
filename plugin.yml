@@ -1,0 +1,15 @@
+name: RankSystemVoucher
+api: 5.0.0
+version: 1.0.0
+main: slayerretrun\ranksystemvoucher\RankSystemVoucher
+author: SlayerRetrun Team
+commands:
+  ranksystemvoucher:
+    description: RankSystemVoucher Command
+    usage: "/ranksystemvoucher <player> <rank> <amount>"
+    permission: ranksystemvoucher.command
+    aliases:
+      - ranksgive
+permissions:
+  ranksystemvoucher.command:
+    default: op

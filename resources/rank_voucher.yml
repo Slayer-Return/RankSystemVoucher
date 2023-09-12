@@ -1,0 +1,17 @@
+# RankSystemVoucher Configuration
+# Tag's
+# {old-rank} -> Old Rank
+# {player} -> Player name
+# {rank} -> Selected Rank
+
+example:
+  item: paper
+  customname: §aRankSystemVoucher §eExample
+  lore:
+    - "§aRank §eExample"
+    - "§7(Right-Click) to claim rank"
+  permission: example
+  commands:
+    - "ranksystem setrank {player} example"
+    - "ranksystem removerank {player} {old-rank}"
+  message: "§eCongratulations you just got a Rank {rank} from RankSystemVoucher!"
