@@ -18,7 +18,7 @@ A simple plugin addon for <a target="_blank" href="https://poggit.pmmp.io/p/Rank
 ## How To Use
 
 - Create your own RankSystemVoucher item in plugin_data/RankSystemVoucher/rank_voucher.yml
-- Get your item with command /ranksystemvoucher YourName RankName
+- Get your item with command /ranksystemvoucher YourName RankName Amount
 - Hold the item
 - Click on block
 
