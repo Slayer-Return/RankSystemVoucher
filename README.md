@@ -1,4 +1,4 @@
-# RankSystemVoucher
+## RankSystemVoucher
 
 A simple plugin addon for <a target="_blank" href="https://poggit.pmmp.io/p/RankSystem/">RankSystem</a> from IvanCraft623.
 
